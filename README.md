@@ -1,14 +1,34 @@
 # 🎃 Easy123Pic2Stencil — v1.2.0  
-by **aiwebautomation**
+by **aiwebautomation**  
 
-> **Tags:** stencil maker, pumpkin carving, halloween, graffiti, spray paint art, diy stencil, photo to stencil, free stencil generator, aiwebautomation, maker tools, art projects, laser cutting, vinyl stencil, halloween stencils, pumpkin templates, svg cutter, spray templates, printable stencils
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/aiwebautomation/easy123pic2stencil)  
+*(Click the badge to launch instantly on Streamlit Cloud)*  
 
-**Easy123Pic2Stencil** is a free, open-source web app that instantly converts any image into a clean, printable stencil — perfect for:
+---
 
-- 🎃 Pumpkin carving templates  
-- 🎨 Graffiti / spray-paint art  
-- ✂️ Laser or vinyl cutting  
-- 🧩 DIY and classroom art projects  
+![Easy123Pic2Stencil Preview](https://raw.githubusercontent.com/aiwebautomation/Easy123Pic2Stencil/main/docs/cover_screenshot.png)  
+*Example: turn any image into a printable pumpkin stencil.*
+
+---
+
+### 🪄 Description
+
+Turn **any image** into a **ready-to-print pumpkin carving stencil PDF** — to scale, tiled, and sized perfectly for your **pumpkin, wall, or window**.  
+No Photoshop needed. Just **upload → adjust → print → carve.**  
+**Made for Halloween creators, DIYers, makers, and anyone who loves a spooky shortcut.**
+
+---
+
+### 🔍 GitHub Topics
+`streamlit` `stencil-maker` `pumpkin-carving` `halloween` `photo-to-stencil` `graffiti-art` `spray-paint` `diy-art` `vinyl-cutting` `laser-cutting` `aiwebautomation` `open-source` `maker-tools` `halloween-stencils` `art-projects` `pdf-generator` `image-processing`
+
+---
+
+🎃 **Easy123Pic2Stencil** is a free, open-source web app that instantly converts any image into a clean, printable stencil — perfect for:
+- Pumpkin carving templates  
+- Graffiti or spray-paint art  
+- Laser or vinyl cutting  
+- DIY and classroom art projects  
 
 Upload → tweak → preview → print → carve or paint.  
 **Simple mode** is instant. **Advanced tabs** give precision control.
