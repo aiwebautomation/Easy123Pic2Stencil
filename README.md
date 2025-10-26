@@ -1,7 +1,7 @@
 # 🎃 Easy123Pic2Stencil — v1.2.0  
 by **aiwebautomation**  
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/aiwebautomation/easy123pic2stencil)  
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://easy123pic2stencil.streamlit.app)
 *(Click the badge to launch instantly on Streamlit Cloud)*  
 
 ---
