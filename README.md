@@ -1,53 +1,35 @@
-# 🎃 Easy123Pic2Stencil — The Ultimate Halloween Stencil Generator (v1.0.0)
 
-Turn **any image** into a **ready-to-print pumpkin carving stencil PDF** — to scale, tiled, and sized perfectly for your pumpkin, wall, or window.
-No Photoshop needed. Just upload → adjust → print → carve.
+# 🎃 Easy123Pic2Stencil — v1.2.0
 
-**Made for Halloween creators, DIYers, makers, stencil-heads, graffiti artists, and anyone who loves a spooky shortcut.**
+**Ultra-simple** pumpkin stencil maker for humans who just want to print and carve.
+Default flow is one screen, minimal inputs. Advanced tab is there if you want power tools.
 
----
-### 🧠 What It Does
-- 🖼️ Upload *any* image (ghosts, logos, artwork, your face, you name it)
-- 🪄 Auto-convert to **black/white stencil** ready for carving
-- 🎯 Enter **pumpkin circumference** (round mode) or **flat surface size**
-- 📐 Generate **true-to-scale** printable PDF
-- 📄 Supports **poster tiling** (1×3, 2×2, 4×4 grids)
-- ✂️ Optional **crop marks + overlap** for taping large designs
-- 🕸️ Perfect for pumpkin carving, wall stencils, T-shirt art, vinyl cutting, laser engraving
-
----
-
-### 💡 SEO-friendly tags (add to repo topics)
-
-##============================================================
-##============================================================
-
-### 🧱 Quick Deploy (Streamlit Cloud)
-1. **Fork / Push** this repo to your GitHub.
-2. Go to [streamlit.io/cloud](https://streamlit.io/cloud) → “New App”
-3. Set main file path to `easy123_pic2stencil_v1_0_0.py`
-4. Click *Deploy!* and share your link 🎃
-
----
-
-### 📸 Use Cases
-- **Pumpkin carving templates** — resize to match your pumpkin circumference.
-- **Wall or window stencils** — flat mode gives exact printable size.
-- **Kids’ craft projects** — quick black/white printouts for coloring or tracing.
-- **Maker-lab gear** — laser cutter prep (export PDF at 100% scale).
-
----
-
-### 🛠️ Tech Stack
-- [Streamlit](https://streamlit.io/) for instant web UI  
-- [Pillow (PIL)](https://python-pillow.org) for image processing  
-- [ReportLab](https://www.reportlab.com/dev/docs/reportlab-userguide.pdf) for multi-page PDF generation  
-- [NumPy](https://numpy.org) for efficient math
-
----
-
-### ⚙️ Run Locally
+## Run (macOS/Linux/Windows)
 ```bash
-python -m venv .venv && source .venv/bin/activate
+python3 -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
-streamlit run easy123_pic2stencil_v1_0_0.py
+streamlit run easy123_pic2stencil_v1_2_0.py
+```
+
+## Simple mode (default)
+1. Upload any image.
+2. Pick **Round (pumpkin)** or **Flat (wall)**.
+3. Enter **two numbers**:
+   - Round: **Horizontal** + **Vertical circumference**
+   - Flat: **Width** + **Height**
+4. Click **Generate PDF**. Print at **100%** scale.
+
+The app includes tiny diagrams that show what to measure.
+
+## Advanced mode
+- Threshold / invert / smoothing
+- Paper size (letter/a4/custom), margins
+- Poster tiling (1x3, 2x2, 4x4…), overlap, crop marks
+- Coverage control for curved surfaces
+
+## Tips
+- Round size ≈ circumference ÷ π along each axis. Default coverage = 0.8.
+- If target is bigger than printable area, the app scales **down** to fit.
+- PDF has a footer reminder to print at 100%.
+
+MIT License.
