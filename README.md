@@ -26,7 +26,7 @@ Upload → Size → Preview → Print. That’s it.
 ### 🖼 Interface Preview
 | Stencil Generation | Sizing Tab | Draw / Touchup |
 |:--:|:--:|:--:|
-| ![Stencil Generation](docs/screenshot_1_stencil_generation.png) | ![Sizing Tab](docs/screenshot_2_sizing_tab.png) | ![Draw Touchup](docs/screenshot_3_draw_touchup.png) |
+| ![Sizing Tab](docs/screenshot_2_sizing_tab.png) | ![Stencil Generation](docs/screenshot_1_stencil_generation.png) | ![Draw Touchup](docs/screenshot_3_draw_touchup.png) |
 
 ---
 
