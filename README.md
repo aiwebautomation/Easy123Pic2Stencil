@@ -1,13 +1,21 @@
-# 🎃 Easy123Pic2Stencil — v1.2.0  
-by **aiwebautomation**  
+# 🎃 Easy123Pic2Stencil  
+*by [aiwebautomation](https://github.com/aiwebautomation)*  
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://easy123pic2stencil.streamlit.app)
-*(Click the badge to launch instantly on Streamlit Cloud)*  
- 
+Turn any image into a **printable pumpkin carving stencil** — simple, fast, and beginner-friendly.  
+Live on **Streamlit Cloud** below 👇
+
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://easy123pic2stencil.streamlit.app)
+
 ---
 
-![Easy123Pic2Stencil Preview](https://raw.githubusercontent.com/aiwebautomation/Easy123Pic2Stencil/main/docs/cover_screenshot.png)  
-*Example: turn any image into a printable pumpkin stencil.*
+## 🖥️ App Preview
+
+### Interface
+| Upload | Configure | Generate |
+|:--:|:--:|:--:|
+| ![Upload an image](https://raw.githubusercontent.com/aiwebautomation/Easy123Pic2Stencil/main/docs/preview_upload.png) | ![Set size & simplicity](https://raw.githubusercontent.com/aiwebautomation/Easy123Pic2Stencil/main/docs/preview_controls.png) | ![Stencil output](https://raw.githubusercontent.com/aiwebautomation/Easy123Pic2Stencil/main/docs/preview_stencil.png) |
+
+> *Example: turn any image into a printable pumpkin stencil.*
 
 ---
 
