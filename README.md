@@ -3,7 +3,7 @@ by **aiwebautomation**
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://easy123pic2stencil.streamlit.app)
 *(Click the badge to launch instantly on Streamlit Cloud)*  
-
+ 
 ---
 
 ![Easy123Pic2Stencil Preview](https://raw.githubusercontent.com/aiwebautomation/Easy123Pic2Stencil/main/docs/cover_screenshot.png)  
