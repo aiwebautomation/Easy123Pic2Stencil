@@ -1,4 +1,5 @@
 streamlit==1.39.0
+streamlit-drawable-canvas==0.9.0
 pillow==10.4.0
-reportlab==4.2.2
 numpy==1.26.4
+opencv-python-headless==4.10.0.84

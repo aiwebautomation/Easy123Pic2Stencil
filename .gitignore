@@ -7,3 +7,4 @@ __pycache__/
 *.log
 *.pdf
 /tmp/
+local_run_do_not_upload.txt

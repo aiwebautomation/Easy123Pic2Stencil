@@ -1,35 +1,134 @@
+# 🎃 Easy123Pic2Stencil — v1.2.0  
+by **aiwebautomation**
 
-# 🎃 Easy123Pic2Stencil — v1.2.0
+> **Tags:** stencil maker, pumpkin carving, halloween, graffiti, spray paint art, diy stencil, photo to stencil, free stencil generator, aiwebautomation, maker tools, art projects, laser cutting, vinyl stencil, halloween stencils, pumpkin templates, svg cutter, spray templates, printable stencils
 
-**Ultra-simple** pumpkin stencil maker for humans who just want to print and carve.
-Default flow is one screen, minimal inputs. Advanced tab is there if you want power tools.
+**Easy123Pic2Stencil** is a free, open-source web app that instantly converts any image into a clean, printable stencil — perfect for:
 
-## Run (macOS/Linux/Windows)
+- 🎃 Pumpkin carving templates  
+- 🎨 Graffiti / spray-paint art  
+- ✂️ Laser or vinyl cutting  
+- 🧩 DIY and classroom art projects  
+
+Upload → tweak → preview → print → carve or paint.  
+**Simple mode** is instant. **Advanced tabs** give precision control.
+
+---
+
+## 🧩 Run (macOS / Linux / Windows)
+
 ```bash
-python3 -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
+python3 -m venv .venv && source .venv/bin/activate     # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
-streamlit run easy123_pic2stencil_v1_2_0.py
+streamlit run easy123_pic2stencil.py
 ```
 
-## Simple mode (default)
-1. Upload any image.
-2. Pick **Round (pumpkin)** or **Flat (wall)**.
-3. Enter **two numbers**:
-   - Round: **Horizontal** + **Vertical circumference**
-   - Flat: **Width** + **Height**
-4. Click **Generate PDF**. Print at **100%** scale.
+**Debug mode (verbose logs):**
+```bash
+streamlit run easy123_pic2stencil.py --logger.level=debug
+```
 
-The app includes tiny diagrams that show what to measure.
+---
 
-## Advanced mode
-- Threshold / invert / smoothing
-- Paper size (letter/a4/custom), margins
-- Poster tiling (1x3, 2x2, 4x4…), overlap, crop marks
-- Coverage control for curved surfaces
+## 📦 requirements.txt
 
-## Tips
-- Round size ≈ circumference ÷ π along each axis. Default coverage = 0.8.
-- If target is bigger than printable area, the app scales **down** to fit.
-- PDF has a footer reminder to print at 100%.
+```txt
+streamlit==1.39.0
+streamlit-drawable-canvas==0.9.0
+pillow==10.4.0
+numpy==1.26.4
+opencv-python-headless==4.10.0.84
+```
 
-MIT License.
+> ⚠️ **Note:** The **Draw** tab requires `streamlit-drawable-canvas==0.9.0`.  
+> Versions **≥ 0.9.2** break background image rendering in Streamlit multi-tab apps, causing the draw editor not to load.  
+> ✅ Confirmed working fix: pin to `0.9.0`.
+
+If you previously installed another version, clean up first:
+
+```bash
+pip uninstall -y streamlit-drawable-canvas
+rm -rf ~/.streamlit/cache ~/.cache/streamlit
+```
+
+---
+
+## 🪄 Simple Mode (Default)
+
+1. Upload any image (photo, logo, etc.)  
+2. Choose **Round (pumpkin)** or **Flat (wall)**  
+3. Enter two numbers:  
+   - **Round:** horizontal + vertical circumference  
+   - **Flat:** width + height  
+4. Click **Generate Stencil / Download PNG** → **Print at 100% scale**
+
+Tiny reference diagrams show exactly where to measure.
+
+---
+
+## ⚙️ Advanced Tabs
+
+**🖼️ Stencil**  
+- Threshold, blur/smooth, contrast, invert  
+- Edge enhancement for crisper cuts  
+- 2-color (carving) or 3–4-tone (painting) output  
+
+**📏 Sizing**  
+- Round or flat targets; inches / centimeters  
+- Letter usable area ≈ **8.0 × 10.5 in** (≈ **2550×3300 px @ 300 DPI**)  
+
+**🧱 Floating Islands**  
+- Detects “floating” pieces that would fall out  
+- One-click **Auto-Bridge** connects islands cleanly  
+
+**✏️ Draw / Touch-Up**  
+- Paint white → keep area  
+- Paint black → cut area  
+- Adjustable brush width  
+- Live preview + instant download  
+
+🪲 If the canvas doesn’t appear, refresh and upload the image inside the Draw tab.  
+✅ Confirmed fix: `streamlit-drawable-canvas==0.9.0`.
+
+---
+
+## 💾 Presets
+
+- Save, load, export, or import full configurations as JSON.
+
+---
+
+## 💡 Tips
+
+- Round pumpkin face ≈ circumference ÷ π per axis (≈ 80% coverage)  
+- Oversized stencils automatically scale to fit printable area  
+- Always print at 100% scale for accurate size
+
+---
+
+## 🧪 Debug Mode
+
+Run with debug logging for deeper trace info:
+
+```bash
+streamlit run easy123_pic2stencil.py --logger.level=debug
+```
+
+Logs show file paths, session state, and applet initialization — useful for Draw tab debugging.
+
+---
+
+## 📜 License
+
+MIT License — free for personal, educational, and commercial use.  
+© 2025 aiwebautomation.
+
+---
+
+## 🧠 Keywords for Discovery
+
+pumpkin stencil generator, halloween stencil maker, pumpkin template app, graffiti stencil creator, diy spray paint stencil, svg stencil converter, photo to stencil online, pumpkin carving pattern tool, art project templates, aiwebautomation stencil tools, streamlit stencil app, open source stencil maker
+
+---
+
+✅ Ready for GitHub, Streamlit Cloud, or local use.
